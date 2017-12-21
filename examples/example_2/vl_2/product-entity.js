@@ -33,3 +33,5 @@ class ProductEntity {
 }
 
 module.exports = ProductEntity;
+
+// added comment
