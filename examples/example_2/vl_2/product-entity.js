@@ -1,10 +1,11 @@
 class ProductEntity {
-/*
+
     constructor(data) {
         this.id = data.id
         this.name = data.name
         this.price = data.price
-    }*/
+    }
+
     getData(){
         return {
             id:this.id,
@@ -33,3 +34,5 @@ class ProductEntity {
 }
 
 module.exports = ProductEntity;
+
+// added comment

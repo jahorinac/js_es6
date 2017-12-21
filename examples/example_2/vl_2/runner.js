@@ -1,6 +1,12 @@
 const ProductFactory = require("./product-factory");
 
-const entity = new ProductFactory().create();
+var data = {
+    "id"    : 0,
+    "name"  : "",
+    "price" : 0
+}
+
+const entity = new ProductFactory().create(data);
 
 entity.setId(5);
 entity.setName("premium");
